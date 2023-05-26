@@ -25,7 +25,7 @@ fit = mrMediator(data=DTC,
 ```
 Once fitted, we can draw the mediation diagram. We can either put **method = 'prod'** to have indirect effect using product method
 ```
-mrDiagram(fit =fit, method = 'prod')
+plot(fit, method = 'prod')
 ```
 ![mr-prod](https://github.com/CESP-ExpHer/mrMediator/assets/24691084/b4d6e560-933a-4151-9df1-9d314ba0f3a2)
 
