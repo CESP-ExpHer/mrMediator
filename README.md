@@ -16,7 +16,7 @@ head(DTC)
 6         16  79747855  A  G 0.6673459  0.0905 0.004874164  2.616128e-78       TSH rs73575083
 ```
 
-Next step is to calculate both the direct and indirect effect using **mrMediator** function.
+The first step is to calculate both the direct and indirect effect using **mrMediator** function.
 
 ```
 fit = mrMediator(data=DTC,
