@@ -1,8 +1,7 @@
 # mrMediator
 
-Quick review on mediator MR.
 
-Please have a look at the following github page [https://github.com/CESP-ExpHer/MVMR/blob/main/README.md](https://github.com/CESP-ExpHer/MVMR) in order to understand the concept of Mediator MR is and how to prepare the dataset correctly. 
+Please have a look at the following github page [https://github.com/CESP-ExpHer/MVMR/blob/main/README.md](https://github.com/CESP-ExpHer/MVMR) in order to understand the concept of Mediator MR and how to prepare the dataset correctly. 
 
 **Make sure the column names correspond exactly as speicified below**
 ```
