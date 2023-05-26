@@ -1,0 +1,21 @@
+Package: mrMediator
+Type: Package
+Title: Perform Mendelian Randomization Mediation Analysis
+Version: 0.1.0
+Authors@R: person(given = "SeeHyun",
+            family = "Park",
+            email="parkseeh0226@gmail.com",
+            role=c("aut", "cre"))
+Author: See Hyun Park [aut, cre]
+Maintainer: See Hyun Park <parkseeh0226@gmail.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.2.3
+Imports:
+    dplyr,
+    TwoSampleMR
