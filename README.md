@@ -32,6 +32,6 @@ plot(fit, method = 'prod')
 
 or **method = 'diff'** to have indirect effect using difference method
 ```
-mrDiagram(fit =fit, method = 'diff')
+plot(fit, method = 'diff')
 ```
 ![mr-diff](https://github.com/CESP-ExpHer/mrMediator/assets/24691084/b654230d-620f-469b-8ef2-b6e467c65d32)
