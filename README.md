@@ -1,9 +1,9 @@
 # mrMediator
 
 
-Please have a look at the following github page [https://github.com/CESP-ExpHer/MVMR/blob/main/README.md](https://github.com/CESP-ExpHer/MVMR) in order to understand the concept of Mediator MR and how to prepare the dataset correctly. 
+Please have a look at the following GitHub page [https://github.com/CESP-ExpHer/MVMR/blob/main/README.md](https://github.com/CESP-ExpHer/MVMR) in order to understand the concept of Mediator MR and how to prepare the dataset correctly. 
 
-**Make sure the column names correspond exactly as speicified below**
+**Make sure the column names correspond exactly as specified below**
 ```
 head(DTC)
   chromosome  position EA OA       EAF    Beta          SE             P Phenotype        SNP
@@ -23,7 +23,7 @@ fit = mrMediator(data=DTC,
                  mediator = list(name ='SHBG', type = 'continuous'),
                  outcome = list(name='DTC', type ='binary'))
 ```
-Once fitted, we can draw the mediation diagram. We can either put **method = 'prod'** to have indirect effect using product method
+Once fitted, we can draw the mediation diagram. We can either put **method = 'prod'** to have an indirect effect using the product method
 ```
 plot(fit, method = 'prod')
 ```
